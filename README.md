@@ -1,6 +1,14 @@
+# Tools will be used to complete this task:
+- Servo SG90 motor
+- TinkerCAD
+
 # Servo SG90 motor
 
-The SG90 is a popular micro servo motor commonly used in robotics, electronics, and hobbyist projects. Here are some key features and specifications of the SG90 servo motor:
+The SG90 is a popular micro servo motor commonly used in robotics, electronics, and hobbyist projects.
+
+<img src= "https://github.com/Layan002/Electrical-and-Electronics-Task1-Servo-motor-simulation/assets/107956591/3c55d9c9-6a00-4ec4-ba89-c57440088702" alt= "Servo" width= 200><br>
+
+ Here are some key features and specifications of the SG90 servo motor:<br>
 
 1- Features: 
 - Compact Size: The SG90 is small and lightweight, making it ideal for projects with space constraints.<br>
@@ -20,3 +28,7 @@ The SG90 is a popular micro servo motor commonly used in robotics, electronics, 
 - Robotics: Used for controlling small robot arms, grippers, or pan-tilt mechanisms.<br>
 - RC Models: Common in radio-controlled (RC) cars, boats, and airplanes for controlling steering, throttle, and other functions.<br>
 - DIY Projects: Suitable for various hobby projects, including animatronics, automated systems, and educational kits.<br>
+
+# TinkerCAD
+
+
