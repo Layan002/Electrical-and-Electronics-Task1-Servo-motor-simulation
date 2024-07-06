@@ -49,6 +49,8 @@ To apply this task, starting with the most basic fundamental application is very
 There are two type of servo motor usages: Sweep and Knop. Sweep doesn't contain potentiameters unlik Knop which contans them. Potentiameter is responsible about handle-controlling for the motors positions.
 
 ### Sweep
+#### This part DOES NOT use Potentiometer
+
 We have three jumper-wires connected from the Servo motor to the Auirdoino: Power, Ground, and Signal. we connect the power to 5V (3.3V is not a good option), and the signal to any number in the side of PWM which stands for "Pulse Width Modulation". We use it because it provides a simple and efficient way to encode position information using a single digital signal.  <br>
 
 <img src= "https://github.com/Layan002/Electrical-and-Electronics-Task1-Servo-motor-simulation/assets/107956591/8ebe8a2f-a44c-4840-84ef-e5e505235871" alt= "Servo" width= 700><br>
@@ -87,9 +89,10 @@ void loop()
 You can notice that I've used the for loop to make the servo motor rotate. 
 
 ### Knop
+#### This part uses Potentiometer
 
+<img src= "https://github.com/Layan002/Electrical-and-Electronics-Task1-Servo-motor-simulation/assets/107956591/cb45c88a-be38-4f35-8a89-2e7e8d3c7882" alt= "Servo" width= 700><br>
 
-![tryin one servo and potentiometer](https://github.com/Layan002/Electrical-and-Electronics-Task1-Servo-motor-simulation/assets/107956591/cb45c88a-be38-4f35-8a89-2e7e8d3c7882)
 
 ``` CPP
 // C++ code
@@ -116,5 +119,5 @@ void loop()
   delay(10); // Delay a little bit to improve simulation performance
 }loading servo-and-potentio.ino…]()
 ```
-You can notice here I didn't use the foor loop, because I have potentiameter. So, I've used maping for the potentiameter to make the rotation degrees of it convert from the potentiometer’s full range (0 to 270 degrees) to the servo’s range (0 to 180 degrees).
+You can notice here I didn't use the foor loop, because I have potentiometer. So, I've used maping to make the rotation degrees convert from the potentiometer’s full range (0 to 270 degrees) to the servo’s range (0 to 180 degrees).
 
