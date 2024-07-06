@@ -132,7 +132,10 @@ In this part we will repeat our knowledge that we got from the single servo moto
 <img src= "https://github.com/Layan002/Electrical-and-Electronics-Task1-Servo-motor-simulation/assets/107956591/cb47ed22-0562-4690-a3f5-926631b371ea" alt= "Servo" width= 700><br>
 
 #### Circuit code blocks
-<img src= "https://github.com/Layan002/Electrical-and-Electronics-Task1-Servo-motor-simulation/assets/107956591/06c786fc-f747-4f52-a56b-7a17509ec896" alt= "Servo" width= 700><br>
+<p align="center">
+  <img src="https://github.com/Layan002/Electrical-and-Electronics-Task1-Servo-motor-simulation/assets/107956591/07c2f941-493b-48a2-8912-0e7759a12d34" alt="image1" width="45%" />
+  <img src="https://github.com/Layan002/Electrical-and-Electronics-Task1-Servo-motor-simulation/assets/107956591/bd0d1604-eba9-4002-8378-6dd707464edf" alt="image2" width="45%" />
+</p>
 
 #### Circuit Code
 
