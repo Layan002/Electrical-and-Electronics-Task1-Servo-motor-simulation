@@ -191,16 +191,106 @@ void loop()
     servo_13.write(position);
     servo_7.write(position);
   }
-}loading six_sweep1.ino…]()
-
+}
 ```
 
 ### Knop
 #### Circuit Layout
+<img src= "https://github.com/Layan002/Electrical-and-Electronics-Task1-Servo-motor-simulation/assets/107956591/24a87c00-9795-4fad-b89a-7364cba58a63" alt= "Servo" width= 700><br>
 
 #### Circuit Diagram
+<img src= "https://github.com/Layan002/Electrical-and-Electronics-Task1-Servo-motor-simulation/assets/107956591/322dafab-bcba-4be5-bfc3-536419c8ed90" alt= "Servo" width= 700><br>
 
 #### Circuit code blocks
+<p align="center">
+  <img src="https://github.com/Layan002/Electrical-and-Electronics-Task1-Servo-motor-simulation/assets/107956591/17732916-34d4-4ee5-8a2e-203f21b98dfd" alt="six-knop1" width="45%" />
+  <img src="https://github.com/Layan002/Electrical-and-Electronics-Task1-Servo-motor-simulation/assets/107956591/0ea90a3b-ea07-4f98-a218-d360f2186f3b" alt="Six-knop-blocks2" width="45%" />
+</p>
 
 #### Circuit Code
+``` CPP
+// C++ code
+//
+#include <Servo.h>
+
+int outputValue = 0;
+
+int sensorValue = 0;
+
+int sensorValue1 = 0;
+
+int outputValue1 = 0;
+
+int sensorValue2 = 0;
+
+int outputValue2 = 0;
+
+int senserValue3 = 0;
+
+int senserValue4 = 0;
+
+int senserValue5 = 0;
+
+int outputValue3 = 0;
+
+int outputValue4 = 0;
+
+int outputValue5 = 0;
+
+Servo servo_9;
+
+Servo servo_10;
+
+Servo servo_11;
+
+Servo servo_12;
+
+Servo servo_13;
+
+Servo servo_7;
+
+void setup()
+{
+  pinMode(A0, INPUT);
+  servo_9.attach(9, 500, 2500);
+  pinMode(A1, INPUT);
+  servo_10.attach(10, 500, 2500);
+  pinMode(A2, INPUT);
+  servo_11.attach(11, 500, 2500);
+  pinMode(A3, INPUT);
+  servo_12.attach(12, 500, 2500);
+  pinMode(A4, INPUT);
+  servo_13.attach(13, 500, 2500);
+  pinMode(A5, INPUT);
+  servo_7.attach(7, 500, 2500);
+}
+
+void loop()
+{
+  sensorValue = analogRead(A0);
+  outputValue = map(sensorValue, 0, 1023, 0, 180);
+  servo_9.write(outputValue);
+
+  sensorValue1 = analogRead(A1);
+  outputValue1 = map(sensorValue1, 0, 1023, 0, 180);
+  servo_10.write(outputValue1);
+
+  sensorValue2 = analogRead(A2);
+  outputValue2 = map(sensorValue2, 0, 1023, 0, 180);
+  servo_11.write(outputValue2);
+
+  senserValue3 = analogRead(A3);
+  outputValue3 = map(senserValue3, 0, 1023, 0, 180);
+  servo_12.write(outputValue3);
+
+  senserValue4 = analogRead(A4);
+  outputValue4 = map(senserValue4, 0, 1023, 0, 180);
+  servo_13.write(outputValue4);
+
+  senserValue5 = analogRead(A5);
+  outputValue5 = map(senserValue5, 0, 1023, 0, 180);
+  servo_7.write(outputValue5);
+  delay(10); // Delay a little bit to improve simulation performance
+}
+```
 
