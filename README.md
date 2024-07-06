@@ -125,6 +125,7 @@ You can notice here I didn't use the foor loop, because I have potentiometer. So
 In this part we will repeat our knowledge that we got from the single servo motor but with so many servos! Nothing differs. 
 
 ### Sweep
+Multiple Servos with no potentiometer.
 #### Circuit Layout
 <img src= "https://github.com/Layan002/Electrical-and-Electronics-Task1-Servo-motor-simulation/assets/107956591/d743d160-7410-4edd-b631-0d5724131aae" alt= "Servo" width= 700><br>
 
@@ -199,6 +200,7 @@ void loop()
 ```
 
 ### Knop
+Multiple Servos with multiple potentiometers.
 #### Circuit Layout
 <img src= "https://github.com/Layan002/Electrical-and-Electronics-Task1-Servo-motor-simulation/assets/107956591/24a87c00-9795-4fad-b89a-7364cba58a63" alt= "Servo" width= 700><br>
 
