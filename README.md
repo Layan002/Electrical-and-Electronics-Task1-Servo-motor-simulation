@@ -49,7 +49,7 @@ To apply this task, starting with the most basic fundamental application is very
 There are two type of servo motor usages: Sweep and Knop. Sweep doesn't contain potentiameters unlik Knop which contans them. Potentiameter is responsible about handle-controlling for the motors positions.
 
 ### Sweep
-#### This part DOES NOT use Potentiometer
+#### This part DOES NOT use a Potentiometer
 
 We have three jumper-wires connected from the Servo motor to the Auirdoino: Power, Ground, and Signal. we connect the power to 5V (3.3V is not a good option), and the signal to any number in the side of PWM which stands for "Pulse Width Modulation". We use it because it provides a simple and efficient way to encode position information using a single digital signal.  <br>
 
@@ -89,7 +89,7 @@ void loop()
 You can notice that I've used the for loop to make the servo motor rotate. 
 
 ### Knop
-#### This part uses Potentiometer
+#### This part uses a Potentiometer
 
 <img src= "https://github.com/Layan002/Electrical-and-Electronics-Task1-Servo-motor-simulation/assets/107956591/cb45c88a-be38-4f35-8a89-2e7e8d3c7882" alt= "Servo" width= 700><br>
 
@@ -120,4 +120,87 @@ void loop()
 }loading servo-and-potentio.ino…]()
 ```
 You can notice here I didn't use the foor loop, because I have potentiometer. So, I've used maping to make the rotation degrees convert from the potentiometer’s full range (0 to 270 degrees) to the servo’s range (0 to 180 degrees).
+
+## Multiple Servos:
+
+### Sweep
+#### Circuit Layout
+<img src= "https://github.com/Layan002/Electrical-and-Electronics-Task1-Servo-motor-simulation/assets/107956591/d743d160-7410-4edd-b631-0d5724131aae" alt= "Servo" width= 700><br>
+
+#### Circuit Diagram
+<img src= "https://github.com/Layan002/Electrical-and-Electronics-Task1-Servo-motor-simulation/assets/107956591/cb47ed22-0562-4690-a3f5-926631b371ea" alt= "Servo" width= 700><br>
+
+#### Circuit code blocks
+<img src= "https://github.com/Layan002/Electrical-and-Electronics-Task1-Servo-motor-simulation/assets/107956591/06c786fc-f747-4f52-a56b-7a17509ec896" alt= "Servo" width= 700><br>
+
+#### Circuit Code
+
+``` CPP
+// C++ code
+//
+#include <Servo.h>
+
+int position = 0;
+
+int i = 0;
+
+int j = 0;
+
+int k = 0;
+
+Servo servo_9;
+
+Servo servo_10;
+
+Servo servo_11;
+
+Servo servo_12;
+
+Servo servo_13;
+
+Servo servo_7;
+
+void setup()
+{
+  servo_9.attach(9, 500, 2500);
+  servo_10.attach(10, 500, 2500);
+  servo_11.attach(11, 500, 2500);
+  servo_12.attach(12, 500, 2500);
+  servo_13.attach(13, 500, 2500);
+  servo_7.attach(7, 500, 2500);
+}
+
+void loop()
+{
+  position = 0;
+  for (position = 1; position <= 179; position += 1) {
+    delay(20); // Wait for 20 millisecond(s)
+    servo_9.write(position);
+    servo_10.write(position);
+    servo_11.write(position);
+    servo_12.write(position);
+    servo_13.write(position);
+    servo_7.write(position);
+  }
+  for (position = 179; position >= 1; position -= 1) {
+    delay(20); // Wait for 20 millisecond(s)
+    servo_9.write(position);
+    servo_10.write(position);
+    servo_11.write(position);
+    servo_12.write(position);
+    servo_13.write(position);
+    servo_7.write(position);
+  }
+}loading six_sweep1.ino…]()
+
+```
+
+### Knop
+#### Circuit Layout
+
+#### Circuit Diagram
+
+#### Circuit code blocks
+
+#### Circuit Code
 
