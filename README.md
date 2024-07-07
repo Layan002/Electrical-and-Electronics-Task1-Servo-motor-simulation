@@ -106,7 +106,8 @@ void loop()
   }
 }
 ```
-You can notice that I've used the for loop to make the servo motor rotate. 
+> [!NOTE]
+> You can notice that I've used the for loop to make the servo motor rotates. 
 
 ### Knop
 #### This part uses a Potentiometer
@@ -141,7 +142,8 @@ void loop()
   delay(10); // Delay a little bit to improve simulation performance
 }loading servo-and-potentio.ino…]()
 ```
-You can notice here I didn't use the foor loop, because I have potentiometer. So, I've used maping to make the rotation degrees convert from the potentiometer’s full range (0 to 1023 degrees) to the servo’s range (0 to 180 degrees).
+> [!NOTE]
+> You can notice here I didn't use the foor loop, because I have potentiometer. So, I've used maping to make the rotation degrees convert from the potentiometer’s full range (0 to 1023 degrees) to the servo’s range (0 to 180 degrees).
 
 ## Multiple Servos
 In this part we will repeat our knowledge that we got from the single servo motor but with so many servos! Nothing differs. 
