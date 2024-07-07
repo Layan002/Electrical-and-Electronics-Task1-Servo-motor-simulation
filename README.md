@@ -1,4 +1,4 @@
-# Tools will be used to complete this task:
+# Tools will be used to complete this task
 - Servo SG90 motor
 - TinkerCAD
 
