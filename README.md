@@ -1,6 +1,8 @@
 # Tools will be used to complete this task
-- Servo SG90 motor
-- TinkerCAD
+####  Servo SG90 motor
+####  TinkerCAD
+- Breadboard
+- Arduino
 
 # Servo SG90 motor
 
@@ -41,7 +43,13 @@ Here are the main applications of Tinkercad:
 - Prototyping: Quickly create and iterate on prototypes of designs.
 - Education: Used in classrooms to teach students about 3D design, engineering, and electronics.
 - Hobby Projects: Ideal for hobbyists working on DIY projects, such as model making and electronics.
-  
+
+### Breadboard
+
+
+### Arduino
+
+
 # Task Application
 To apply this task, starting with the most basic fundamental application is very helpfull to understand both servo motor and TinkerCAD tools. 
 
