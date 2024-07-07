@@ -53,8 +53,11 @@ There are two type of servo motor usages: Sweep and Knop. Sweep doesn't contain 
 
 We have three jumper-wires connected from the Servo motor to the Auirdoino: Power, Ground, and Signal. we connect the power to 5V (3.3V is not a good option), and the signal to any number in the side of PWM which stands for "Pulse Width Modulation". We use it because it provides a simple and efficient way to encode position information using a single digital signal.  <br>
 
+#### Circuit Diagram
 <img src= "https://github.com/Layan002/Electrical-and-Electronics-Task1-Servo-motor-simulation/assets/107956591/8ebe8a2f-a44c-4840-84ef-e5e505235871" alt= "Servo" width= 700><br>
-
+#### Circuit Block-Code
+<img src= "https://github.com/Layan002/Electrical-and-Electronics-Task1-Servo-motor-simulation/assets/107956591/4170cb03-a1a5-4915-a6bf-8758f870bc51" alt= "Servo" width= 700><br>
+#### Circuit Code
 ``` CPP
 // C++ code
 //
@@ -91,9 +94,11 @@ You can notice that I've used the for loop to make the servo motor rotate.
 ### Knop
 #### This part uses a Potentiometer
 
+#### Circuit Diagram
 <img src= "https://github.com/Layan002/Electrical-and-Electronics-Task1-Servo-motor-simulation/assets/107956591/cb45c88a-be38-4f35-8a89-2e7e8d3c7882" alt= "Servo" width= 700><br>
-
-
+#### Circuit Block-Code
+<img src= "https://github.com/Layan002/Electrical-and-Electronics-Task1-Servo-motor-simulation/assets/107956591/abd76a20-952a-47aa-aa4b-597ae46513d2" alt= "Servo" width= 700><br>
+#### Circuit Code
 ``` CPP
 // C++ code
 //
