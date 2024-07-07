@@ -304,4 +304,5 @@ void loop()
   delay(10); // Delay a little bit to improve simulation performance
 }
 ```
-
+# Conclusion
+To conclude this task, we've learnt so many things about both TinkerCAD, Auirdoino, and servo SG90 motor. We distinguished the differences between each of sweep and knop. Finally, we've simulated successfully wether the single or multiple servo motors. 
