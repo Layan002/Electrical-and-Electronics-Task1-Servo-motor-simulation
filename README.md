@@ -45,9 +45,14 @@ Here are the main applications of Tinkercad:
 - Hobby Projects: Ideal for hobbyists working on DIY projects, such as model making and electronics.
 
 ### Breadboard
+<img src= "https://github.com/Layan002/Electrical-and-Electronics-Task1-Servo-motor-simulation/assets/107956591/4a2e07b1-b471-441d-8815-5fd80056d750" alt= "Servo" width= 400 > <br>
+
 
 
 ### Arduino
+<img src= "https://github.com/Layan002/Electrical-and-Electronics-Task1-Servo-motor-simulation/assets/107956591/b591c383-b39b-4e84-8fc5-0d54b5c485db" alt= "Servo" width= 400 > <br>
+
+
 
 
 # Task Application
