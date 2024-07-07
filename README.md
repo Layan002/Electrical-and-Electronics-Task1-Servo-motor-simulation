@@ -45,11 +45,15 @@ Here are the main applications of Tinkercad:
 - Hobby Projects: Ideal for hobbyists working on DIY projects, such as model making and electronics.
 
 ### Breadboard
+A breadboard is a construction base used for prototyping electronic circuits. It allows you to create temporary circuits and test various configurations without soldering, making it easy to modify and troubleshoot designs. <br>
+
 <img src= "https://github.com/Layan002/Electrical-and-Electronics-Task1-Servo-motor-simulation/assets/107956591/4a2e07b1-b471-441d-8815-5fd80056d750" alt= "Servo" width= 400 > <br>
 
 
 
 ### Arduino
+Arduino is an open-source electronics platform based on easy-to-use hardware and software. It's designed to make the process of using microcontrollers more accessible to a wide range of users, from beginners to advanced engineers. <br>
+
 <img src= "https://github.com/Layan002/Electrical-and-Electronics-Task1-Servo-motor-simulation/assets/107956591/b591c383-b39b-4e84-8fc5-0d54b5c485db" alt= "Servo" width= 400 > <br>
 
 
