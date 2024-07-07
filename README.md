@@ -305,4 +305,4 @@ void loop()
 }
 ```
 # Conclusion
-To conclude this task, we've learnt so many things about both TinkerCAD, Auirdoino, and servo SG90 motor. We distinguished the differences between each of sweep and knop. Finally, we've simulated successfully wether the single or multiple servo motors. 
+To conclude this task, we've learnt so many things about each of TinkerCAD, Auirdoino, and servo SG90 motor. We distinguished the differences between both sweep and knop. Finally, we've simulated successfully wether the single or multiple servo motors. 
