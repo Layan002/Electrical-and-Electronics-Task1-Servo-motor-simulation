@@ -56,7 +56,7 @@ We have three jumper-wires connected from the Servo motor to the Auirdoino: Powe
 #### Circuit Diagram
 <img src= "https://github.com/Layan002/Electrical-and-Electronics-Task1-Servo-motor-simulation/assets/107956591/8ebe8a2f-a44c-4840-84ef-e5e505235871" alt= "Servo" width= 700><br>
 #### Circuit Block-Code
-<img src= "https://github.com/Layan002/Electrical-and-Electronics-Task1-Servo-motor-simulation/assets/107956591/4170cb03-a1a5-4915-a6bf-8758f870bc51" alt= "Servo" width= 700><br>
+<img src= "https://github.com/Layan002/Electrical-and-Electronics-Task1-Servo-motor-simulation/assets/107956591/4170cb03-a1a5-4915-a6bf-8758f870bc51" alt= "Servo" width= 400><br>
 #### Circuit Code
 ``` CPP
 // C++ code
@@ -97,7 +97,7 @@ You can notice that I've used the for loop to make the servo motor rotate.
 #### Circuit Diagram
 <img src= "https://github.com/Layan002/Electrical-and-Electronics-Task1-Servo-motor-simulation/assets/107956591/cb45c88a-be38-4f35-8a89-2e7e8d3c7882" alt= "Servo" width= 700><br>
 #### Circuit Block-Code
-<img src= "https://github.com/Layan002/Electrical-and-Electronics-Task1-Servo-motor-simulation/assets/107956591/abd76a20-952a-47aa-aa4b-597ae46513d2" alt= "Servo" width= 700><br>
+<img src= "https://github.com/Layan002/Electrical-and-Electronics-Task1-Servo-motor-simulation/assets/107956591/abd76a20-952a-47aa-aa4b-597ae46513d2" alt= "Servo" width= 400><br>
 #### Circuit Code
 ``` CPP
 // C++ code
@@ -124,7 +124,7 @@ void loop()
   delay(10); // Delay a little bit to improve simulation performance
 }loading servo-and-potentio.ino…]()
 ```
-You can notice here I didn't use the foor loop, because I have potentiometer. So, I've used maping to make the rotation degrees convert from the potentiometer’s full range (0 to 270 degrees) to the servo’s range (0 to 180 degrees).
+You can notice here I didn't use the foor loop, because I have potentiometer. So, I've used maping to make the rotation degrees convert from the potentiometer’s full range (0 to 1023 degrees) to the servo’s range (0 to 180 degrees).
 
 ## Multiple Servos
 In this part we will repeat our knowledge that we got from the single servo motor but with so many servos! Nothing differs. 
